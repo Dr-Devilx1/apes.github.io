@@ -1,0 +1,1045 @@
+@media screen and (max-width:768px) {
+
+    body {
+        background-size: cover;
+
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 3vw;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        /* change menu aligment */
+        margin: 0 auto 0 2vw;
+    }
+
+
+    header {
+        padding: 2% 5%;
+    }
+
+
+    .logo p {
+
+        font-size: 8vw;
+        height: auto;
+        margin: 0 0 0 0%;
+
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-buttons {
+        display: flex;
+        margin: 0% 5% 0 0;
+        padding: 0%;
+    }
+
+    .nav-buttons img {
+
+        width: 7vw;
+
+    }
+
+
+    h1 {
+
+        font-size: 8vw;
+
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    h3 {
+
+        font-size: 6vw;
+
+    }
+
+
+    h4 {
+        font-size: 3.1vw;
+    }
+
+    h5 {
+        font-size: 3.4vw;
+    }
+
+    p {
+        font-size: 3vw;
+        /* opacity: 0.8; */
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .sect0 {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+
+    }
+
+    .s0md {
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+
+        gap: 13vw;
+
+        /* margin: 3% 5% 5% 5%; */
+
+        margin: 5% auto;
+
+    }
+
+    .s0d1 {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 3vw;
+
+        width: 80%;
+
+    }
+
+    .s0d1 h1 {
+
+        line-height: 8vw;
+        font-weight: 900;
+
+
+    }
+
+    .s0d1 div {
+
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: top;
+        gap: 20%;
+
+        margin: 0 0 0 0;
+
+    }
+
+
+    .s0d1 div img {
+
+        height: 6vw;
+        cursor: pointer;
+    }
+
+
+    .s0d1 div img:hover {
+
+        scale: 1.1;
+
+    }
+
+    .crt-btn {
+
+        margin: -5% 0 0% 0;
+
+    }
+
+
+    .s0d2 {
+
+        display: flex;
+        flex-direction: row;
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .s0d2 img {
+
+        width: 35vw;
+
+    }
+
+
+    .sect1 {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+
+        margin: 8% 0;
+
+    }
+
+    .sect1 div {
+
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+
+        margin: 0 10%;
+
+        background: url(images/links\ bg.jpg);
+        background-position-y: top;
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        padding: 3% 5%;
+
+        border-radius: 50px 0 0 50px;
+
+    }
+
+
+    .sect1 div img {
+
+        height: 4vw;
+        opacity: 0.7;
+
+    }
+
+    .sect1 div img:hover {
+
+        scale: 1.1;
+        opacity: 1;
+
+    }
+
+    .sect2 {
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: space-between;
+        align-items: center;
+
+        text-align: center;
+
+        width: 100vw;
+
+        margin: 10% 0 15% 0;
+
+
+    }
+
+    .sect2 div {
+
+        width: 70%;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+
+    .sect2 div h4 {
+
+        color: #EA805D;
+
+    }
+
+
+    .sect2 div h3 {
+
+        margin: 1vw 0 2vw 0;
+
+    }
+
+
+    .sect3 {
+
+        width: 100vw;
+
+
+
+    }
+
+    .s3md {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+        gap: 4%;
+
+        padding: 3% 3% 0 3%;
+
+        width: 86%;
+
+        margin: 15% auto 5% auto;
+
+        border: 1px solid white;
+
+        border-radius: 2vw;
+
+    }
+
+
+    .s3md h2 {
+
+        flex: 1;
+        line-height: 6vw;
+
+    }
+
+    .rd-lgo {
+
+        flex: 1;
+        width: 23vw;
+
+    }
+
+    .s3md div {
+
+        flex: 1;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: start;
+        gap: 2.5vw;
+
+    }
+
+    .s3md p {
+        /* opacity: 0.8; */
+        line-height: 3vw;
+    }
+
+    .s3md div img {
+        height: 5vw;
+    }
+
+    .s3md div img:hover {
+        scale: 1.1;
+    }
+
+
+
+
+
+    /* .............................................image SLIDER ................................... */
+
+
+
+
+    .slider-sect1 {
+        overflow-x: hidden;
+        margin: 15% 0 0 0;
+
+
+        rotate: -3.6deg;
+    }
+
+    /* Container for scrolling images */
+    .slider-sect-container1 {
+        width: 100vw;
+        /* Full-width container */
+        overflow: hidden;
+        /* Hide overflow to create scrolling effect */
+        white-space: nowrap;
+        /* Prevent images from wrapping */
+        background: transparent;
+        padding: 1%;
+
+    }
+
+    /* Image wrapper for animation */
+    .slider-sect-scrolling-images1 {
+        display: inline-flex;
+        /* Display images in a row */
+        animation: scroll-left 20s linear infinite;
+        /* 20-second loop animation */
+    }
+
+    /* Styling for each image */
+    .slider-sect-scrolling-images1 img {
+        width: 20vw;
+        /* Set width for each image */
+        /* height: 20vw;                Set height for each image */
+        object-fit: cover;
+        /* Ensures images fit nicely */
+        margin-right: 1vw;
+        /* Optional spacing between images */
+
+        /* border-radius: 0.9vw; */
+
+    }
+
+    /* Keyframes to move images from right to left */
+
+
+    .slider-sect-scrolling-images1 img:hover {
+
+        scale: 1.07;
+        /* transform: translateY(5%); */
+
+        transition: all 0.6s;
+
+    }
+
+
+
+
+
+
+
+
+    /* .............................................image SLIDER ................................... */
+
+
+
+
+    .slider-sect2 {
+        overflow-x: hidden;
+
+        /* margin: 15% 0 0 0; */
+
+        rotate: -3.6deg;
+
+
+    }
+
+    /* Container for scrolling images */
+    .slider-sect-container2 {
+        width: 100vw;
+        /* Full-width container */
+        overflow: hidden;
+        /* Hide overflow to create scrolling effect */
+        white-space: nowrap;
+        /* Prevent images from wrapping */
+        background: transparent;
+        padding: 1%;
+
+    }
+
+    /* Image wrapper for animation */
+    .slider-sect-scrolling-images2 {
+        display: inline-flex;
+        /* Display images in a row */
+        animation: scroll-right 20s linear infinite;
+        /* 20-second loop animation */
+    }
+
+    /* Styling for each image */
+    .slider-sect-scrolling-images2 img {
+        width: 20vw;
+        /* Set width for each image */
+        /* height: 20vw;                Set height for each image */
+        object-fit: cover;
+        /* Ensures images fit nicely */
+        margin-right: 1vw;
+        /* Optional spacing between images */
+
+        /* border-radius: 0.9vw; */
+
+    }
+
+    /* Keyframes to move images from right to left */
+
+
+    .slider-sect-scrolling-images2 img:hover {
+
+        scale: 1.07;
+        /* transform: translateY(5%); */
+
+        transition: all 0.6s;
+
+    }
+
+
+
+
+    .sect4 {
+
+        width: 100vw;
+
+        margin: 10% 0 0 0;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+    .s4md1 {
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: space-between;
+        align-items: center;
+
+        gap: 2vw;
+
+        width: 80%;
+
+        text-align: center;
+
+    }
+
+
+    .s4md1 p strong {
+
+        font-weight: 800;
+        opacity: 1;
+
+    }
+
+    .s4md1 img {
+        height: 5vw;
+    }
+
+
+    .s4md2 {
+
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        justify-content: space-between;
+        align-items: center;
+
+        width: 90%;
+
+        margin: 5% 0 10% 0;
+
+        gap: 2%;
+
+    }
+
+    .s4md2 div {
+
+        /* border: 1px white solid; */
+
+        width: 30%;
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+
+        background: radial-gradient(#2F2E2E 0%, #131313 100%);
+
+        border-radius: 1vw;
+
+        padding: 2%;
+
+
+    }
+
+    .s4md2 div:hover {
+        transform: translateY(-10%);
+        /* box-shadow: 0 0 12px 0 #EA805D; */
+    }
+
+    .s4md2 div img {
+
+        width: 15vw;
+
+    }
+
+
+    .rdmp-hdng {
+        text-align: center;
+    }
+
+
+    .sect5 {
+
+
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+
+
+
+        width: 100vw;
+        height: 50vh;
+
+        /* padding: 0 10%; */
+
+        margin: 5% auto;
+        padding: auto;
+
+
+    }
+
+
+    .sect5 ul li {
+        font-size: 2.8vw;
+    }
+
+    .sect5 ul{
+        margin: 5% 0 0 0;
+    }
+
+
+    .s5md1 {
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: top;
+        align-items: start;
+
+        text-align: left;
+        list-style-position: inside;
+
+        padding: 0% 0 0 5%;
+
+        border-left: 1px solid #FFA202;
+
+        height: 100%;
+
+    }
+
+
+
+    .s5md1::before {
+
+
+        content: '';
+        /* This is required to generate the pseudo-element */
+        display: block;
+        /* To make sure it takes up space */
+        width: 5vw;
+        /* Set the width of the pseudo-element */
+        height: 5vw;
+        /* Set the height of the pseudo-element */
+        background-image: url('images/q1.png');
+        background-size: contain;
+        /* Scale the image to fit */
+
+
+
+        margin: 8% 0 -4vw -7.5vw;
+        padding: 0;
+
+        position: relative;
+
+
+
+    }
+
+
+    .s5md2::before {
+
+
+        content: '';
+        /* This is required to generate the pseudo-element */
+        display: block;
+        /* To make sure it takes up space */
+        width: 5vw;
+        /* Set the width of the pseudo-element */
+        height: 5vw;
+        /* Set the height of the pseudo-element */
+        background-image: url('images/q2.png');
+        background-size: contain;
+        /* Scale the image to fit */
+
+
+        margin: 8% -7vw -4vw 0;
+        padding: 0;
+
+        position: relative;
+
+
+
+    }
+
+
+
+
+    .s5md2 {
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: end;
+        align-items: end;
+        text-align: right;
+        list-style-position: inside;
+
+
+        padding: 0 5% 0 0;
+
+        border-right: 1px solid #FFA202;
+
+        margin: auto 0 0% 0;
+
+        height: 100%;
+
+
+    }
+
+
+
+    footer {
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+        width: 100vw;
+
+        padding: 10%  0 0 0;
+
+        border-top: 0.2vw solid rgba(255, 255, 255, 0.3);
+        border-left: 0.2vw solid rgba(255, 255, 255, 0.3);
+
+
+        border-radius: 4vw 0 0 0;
+
+
+    }
+
+    .f-logo {
+
+        flex: 1;
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 5vw;
+
+        height: 100%;
+
+        /* padding: 0 5% 0 3%; */
+
+    }
+
+    .f-logo p {
+
+        color: white;
+
+        font-size: 8vw;
+        line-height: 2vw;
+
+        font-weight: 900;
+
+    }
+
+
+    .f-links {
+
+        flex: 1;
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+
+        margin: 5% auto 3% auto;
+
+        width: 100%;
+
+    }
+
+
+    .f-links ul {
+
+        list-style: none;
+
+    }
+
+    .f-links ul li {
+        margin: 10% 0 10% 0;
+        font-size: 5vw;
+    }
+
+    .f-links ul li:hover {
+
+        scale: 1.1;
+        color: #EA805D;
+
+    }
+
+    .f-links div {
+
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+        gap: 30%;
+
+        margin: 2% 0 0 0;
+
+    }
+
+
+    .f-links div img {
+
+        height: 7vw;
+
+    }
+
+
+    .f-links div img:hover {
+        scale: 1.1;
+
+    }
+
+
+    .fdlst {
+
+        flex: 1;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+
+        /* padding: 0 15% 0 0; */
+
+
+    }
+
+    .fdlst p{
+        font-size: 4vw;
+        width: 70%;
+    }
+
+    .fdlst img {
+
+        height: 8vw;
+
+    }
+
+
+    .fdlst img:hover {
+        scale: 1.1;
+    }
+
+
+    .lstsect {
+        width: 100vw;
+
+        padding: 0 0 4% 0%;
+
+        border-left: 0.1vw solid rgba(255, 255, 255, 0.3);
+
+        text-align: center;
+    }
+
+
+    .posabs {
+        position: absolute;
+    }
+
+    .lgoimg {
+
+        top: 10.3%;
+
+        left: 30%;
+
+        width: 40vw;
+    }
+
+    .lmnky {
+
+        top: 28.68%;
+
+        left: 6%;
+
+        width: 30vw;
+
+        z-index: -1;
+
+    }
+
+
+    .rmnky1 {
+
+        top: 28.68%;
+
+        left: 65%;
+
+        width: 30vw;
+
+        z-index: -1;
+
+
+
+    }
+
+
+    .rmnky2 {
+        top: 78.7%;
+        left: 65%;
+        width: 30vw;
+
+    }
+
+    .str1 {
+
+        top: 23%;
+        left: 15%;
+        width: 4vw;
+
+    }
+
+    .str2 {
+
+        top: 50%;
+        left: 80%;
+        width: 4vw;
+
+
+    }
+
+    .str3 {
+
+        top: 70%;
+        left: 15%;
+        width: 4vw;
+
+
+
+    }
+
+    .str4 {
+
+        top: 75%;
+        left: 35%;
+        width: 4vw;
+
+
+
+    }
+
+    .rdanimg {
+        height: 40vw;
+        width: 90vw;
+        top: 33.4%;
+        left: 5%;
+    }
+
+
+    .yrl {
+
+        top: 63%;
+
+        left: 80%;
+
+        width: 10vw;
+
+    }
+
+    .fhnd {
+        top: 98.35%;
+        width: 10vw;
+        left: 0;
+    }
+
+    .fcir {
+
+        top: 82.5%;
+        width: 15vw;
+        left: 55%;
+
+    }
+
+    .fwstrp {
+        top: 98.6%;
+        width: 10vw;
+        left: 90%;
+    }
+
+
+
+
+}
